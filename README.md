@@ -1,6 +1,6 @@
 # vagrant-FreshEL
 
-A Vagrant plugin to "Freshen" Enterprise Linux (RHEL/CentOS/similar) during provisioning.  This process includes installing deltarpms, a full `yum upgrade` and a reboot to active any new kernel.
+A Vagrant plugin to "Freshen" Enterprise Linux (RHEL/CentOS/similar) during provisioning.  This process includes installing `deltarpms`, a full `yum upgrade` and a reboot to active any new kernel.
 
 ## Requirements
 
