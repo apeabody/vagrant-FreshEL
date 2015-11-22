@@ -35,9 +35,3 @@ Enable FreshEl in your Vagrantfile (make sure it is running RHEL, CentOS, or sim
 
 * Does not avoid non-compatible distributions and operating systems.
 * Does not provide sufficent console feedback to user in case of errors.
-
-## History
-
-Packaged by (apeabody@gmail.com).
-
-
