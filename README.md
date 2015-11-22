@@ -2,6 +2,8 @@
 
 A Vagrant plugin to "Freshen" Enterprise Linux (RHEL/CentOS/similar) during provisioning.  This process includes installing `deltarpms`, a full `yum upgrade` and a reboot to active any new kernel.
 
+**_NOTE: This plugin is experimental!  However it works for my particular needs._**
+
 ## Requirements
 
 - [Vagrant] (https://www.vagrantup.com) >= 1.7.4
