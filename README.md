@@ -11,25 +11,25 @@ A Vagrant plugin to "Freshen" Enterprise Linux (RHEL/CentOS/similar) during prov
 
 1. Download source code:
 
-```bash
-git clone https://github.com/apeabody/vagrant-FreshEL.git
-```
+  ```bash
+  git clone https://github.com/apeabody/vagrant-FreshEL.git
+  ```
 
 2. Build gem from source:
 
-```bash
-rake build
-```
+  ```bash
+  rake build
+  ```
 
 3. Install plugin:
 
-```bash
-vagrant plugin install ./pkg/vagrant-FreshEL-0.0.1.gem
-```
+  ```bash
+  vagrant plugin install ./pkg/vagrant-FreshEL-0.0.1.gem
+  ```
 
 4. Enable FreshEl in your Vagrantfile (make sure it is running RHEL, CentOS, or similar distro!):
 
-`config.vm.provision :FreshEL`
+  `config.vm.provision :FreshEL`
 
 ## Known Issues
 
