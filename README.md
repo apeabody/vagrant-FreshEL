@@ -4,7 +4,7 @@ A Vagrant plugin to "Freshen" Enterprise Linux (RHEL/CentOS/similar) during prov
 
 ## Requirements
 
-- [Vagrant] (https://www.vagrantup.com)
+- [Vagrant] (https://www.vagrantup.com) >= 1.7.4
 - Either Cygwin or Linux build environment including ruby, rubygems, and rake.
 
 ## Installation & Configuration
