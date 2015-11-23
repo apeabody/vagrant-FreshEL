@@ -34,10 +34,12 @@ module VagrantPlugins
           def provision
             options = {}
             options[:provision_ignore_sentinel] = false
-            @machine.env.ui.warn("Installing deltarpm")
-            @machine.communicate.sudo("yum install -y deltarpm", nil)
+            @machine.env.ui.warn("Installing deltarpm and yum-utils")
+            @machine.communicate.sudo("yum install -y deltarpm yum-utils", nil)
             @machine.env.ui.warn("Running yum upgrade")
             @machine.communicate.sudo("yum upgrade -y", nil)
+            @machine.env.ui.warn("Cleanup old Kernels and Kernel-Devel")
+            @machine.communitcate.sudo("package-cleanup --oldkernels --count=2")
             @machine.action(:reload, options)
             begin
               sleep 10
